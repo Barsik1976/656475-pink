@@ -9,8 +9,8 @@
   </head>
   <body>
 	<header class="page-header">
-      <a class="page-header__logo">
-        <img class="page-header__logo-image" src="img/logotype-pink.svg" alt="Pink"></a>
+      <a class="page-header__logo" href="https://htmlacademy.ru">
+      <img class="page-header__logo-image" src="source/img/logotype-pink.svg" alt="Pink"></a>
       <button class="page-header__button button">       
       </button>
 			<nav class="main-nav">
@@ -35,12 +35,98 @@
       </div>
     </header>
     <main class="page-main">
-
-  
-
-
-  
-		 <footer class="page-footer">
+          <section class="passage-form">
+            <h1 class="visually-hidden">Анкета</h1>
+            <p class="passage-form__call">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните </p>
+          <form action="https://htmlacademy.ru" method="post">
+          <fieldset class="passage-form__group-form">
+            <div class="passage-form__insert">
+              <label>Фамилия:<br><input type="text" name="surname" value="Укажите фамилию *"></label><br>
+                <label>Имя:<br><input type="text" name="name" value="Введите ваше имя *"></label><br>
+                <label>Отчество:<br><input type="text" name="patronymic" value="Ну и отчество тоже"></label>
+            </div>
+          </fieldset>
+          <fieldset class="passage-form__group-progress">
+            <div class="passage-form__progress">
+            <legend class="passage-form__subtitle-progress">Ваши безбашенные достижения в путешествии</legend>
+              <ul>
+                <li class="filter-option">
+                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
+                  <label for="filter-slider" checked>Сделал селфи с акулой
+                  </label>
+                  </li>
+                  <li class="filter-option">
+                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
+                  <label for="filter-slider" checked>Обгорел на пляже
+                  </label>
+                </li>
+                <li class="filter-option">
+                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
+                  <label for="filter-slider">Видел Чака Норриса
+                  </label>
+                </li>
+                <li class="filter-option">
+                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
+                  <label for="filter-slider">Накупил сувениров
+                  </label>
+                </li>
+                <li class="filter-option">
+                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
+                  <label for="filter-slider" checked>Удержал башню
+                  </label>
+                </li>
+                <li class="filter-option">
+                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
+                  <label for="filter-slider">Разгромил отель
+                  </label>
+                </li>
+              </ul>
+            </div>
+           </fieldset>
+           <fieldset class="passage-form__group-form">
+            <div class="passage-form__insert">
+              <label>Номер телефона<br><input type="text" name="phone-number" value="Номер, пожалуйста"></label><br>
+                <label>адрес почты<br><input type="text" name="mail" value="Введите почту *">
+                </label><br>
+            </div>
+           </fieldset>  
+           <fieldset class="passage-form__group-systems">
+            <div class="passage-form__systems-travel">
+            <legend class="passage-form__subtitle-trav">С каким приложением путешествовали?</legend>
+              <ul>
+                <li class="filter-option">
+                  <input type="radio" name="slaider" value="ios" id="filter-slider">
+                  <label for="filter-slider" checked>Pink для iOS
+                  </label>
+                  </li>
+                  <li class="filter-option">
+                  <input type="radio" name="slaider" value="android" id="filter-slider">
+                  <label for="filter-slider">Pink на android
+                  </label>
+                  </li>
+                  <li class="filter-option">
+                  <input type="radio" name="slaider" value="windows" id="filter-slider">
+                  <label for="filter-slider">Windows Phone
+                  </label>
+                  </li>
+                </ul>
+              </div>
+            </fieldset>
+            <fieldset class="passage-form__group-form">
+              <div class="passage-form__emotions">
+              <legend class="passage-form__subtitle-emotions">С каким приложением путешествовали?</legend>
+              <!-- 
+              <label>Опишите свои эмоции<br><input type="text" name="descript-emotions" value="Можно прям в красках, не стесняясь в выражениях"></label>
+              -->
+              <textarea name="descript-emotions" id="descript-field" rows="10">Можно прям в красках, не стесняясь в выражениях</textarea>
+            </div>
+        </fieldset>
+          <button class="passage-form__send-form" type="submit">Отправить форму</button>
+          <p class="passage-form__link"><sup>*</sup><small> – Обязательные поля</small></p>
+        </form>  
+      </section>
+    </main>
+		<footer class="page-footer">
       <div class="page-footer__logo-pink">
         <img class="logo" src="source/img/logotype-blue-tablet.svg" alt="Очки-Пинк">
       </div>
@@ -58,7 +144,7 @@
           </ul>
         </div>
         <div class="page-footer__copyright copyright">
-          <b class="copyright__text">Разработано:</b>
+          <b class="copyright__text">Разработано</b>
           <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
         </div>
   </footer>
