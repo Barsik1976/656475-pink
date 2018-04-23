@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet">
+     <link rel="stylesheet" href="css/normalize.css">
+     <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+	<header class="page-header">
+      <a class="page-header__logo" href="https://htmlacademy.ru">
+      <img class="page-header__logo-image" src="source/img/logotype-pink.svg" alt="Pink"></a>
+      <button class="page-header__button button">       
+      </button>
+			<nav class="main-nav">
+				<ul class="main-nav__list site-list">
+					<li class="site-list__item">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a href="competition.html">Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="https://htmlacademy.ru">html academy</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="photo-user">
+  		  <h1 class="photo-user__competition">Конкурс на самое безбашенное путешествие с Пинк</h1>
+        <img class="photo-user__phone-img" src="source/img/back-mobile.jpg" alt="фон мобайл">
+      </div>
+    </header>
+    <main class="page-main">
+          <section class="passage-form">
+            <h1 class="visually-hidden">Анкета</h1>
+            <p class="passage-form__call">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните </p>
+          <form action="https://htmlacademy.ru" method="post">
+          <fieldset class="passage-form__group-form">
+            <div class="passage-form__insert">
+              <label>Фамилия:<br><input type="text" name="surname" value="Укажите фамилию *"></label><br>
+                <label>Имя:<br><input type="text" name="name" value="Введите ваше имя *"></label><br>
+                <label>Отчество:<br><input type="text" name="patronymic" value="Ну и отчество тоже"></label>
+            </div>
+          </fieldset>
+          <fieldset class="passage-form__group-progress">
+            <div class="passage-form__progress">
+            <legend class="passage-form__subtitle-progress">Ваши безбашенные достижения в путешествии</legend>
+              <ul>
+                <li class="filter-option">
+                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
+                  <label for="filter-slider" checked>Сделал селфи с акулой
+                  </label>
+                  </li>
+                  <li class="filter-option">
+                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
+                  <label for="filter-slider" checked>Обгорел на пляже
+                  </label>
+                </li>
+                <li class="filter-option">
+                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
+                  <label for="filter-slider">Видел Чака Норриса
+                  </label>
+                </li>
+                <li class="filter-option">
+                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
+                  <label for="filter-slider">Накупил сувениров
+                  </label>
+                </li>
+                <li class="filter-option">
+                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
+                  <label for="filter-slider" checked>Удержал башню
+                  </label>
+                </li>
+                <li class="filter-option">
+                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
+                  <label for="filter-slider">Разгромил отель
+                  </label>
+                </li>
+              </ul>
+            </div>
+           </fieldset>
+           <fieldset class="passage-form__group-form">
+            <div class="passage-form__insert">
+              <label>Номер телефона<br><input type="text" name="phone-number" value="Номер, пожалуйста"></label><br>
+                <label>адрес почты<br><input type="text" name="mail" value="Введите почту *">
+                </label><br>
+            </div>
+           </fieldset>  
+           <fieldset class="passage-form__group-systems">
+            <div class="passage-form__systems-travel">
+            <legend class="passage-form__subtitle-trav">С каким приложением путешествовали?</legend>
+              <ul>
+                <li class="filter-option">
+                  <input type="radio" name="slaider" value="ios" id="filter-slider">
+                  <label for="filter-slider" checked>Pink для iOS
+                  </label>
+                  </li>
+                  <li class="filter-option">
+                  <input type="radio" name="slaider" value="android" id="filter-slider">
+                  <label for="filter-slider">Pink на android
+                  </label>
+                  </li>
+                  <li class="filter-option">
+                  <input type="radio" name="slaider" value="windows" id="filter-slider">
+                  <label for="filter-slider">Windows Phone
+                  </label>
+                  </li>
+                </ul>
+              </div>
+            </fieldset>
+            <fieldset class="passage-form__group-form">
+              <div class="passage-form__emotions">
+              <legend class="passage-form__subtitle-emotions">С каким приложением путешествовали?</legend>
+              <!-- 
+              <label>Опишите свои эмоции<br><input type="text" name="descript-emotions" value="Можно прям в красках, не стесняясь в выражениях"></label>
+              -->
+              <textarea name="descript-emotions" id="descript-field" rows="10">Можно прям в красках, не стесняясь в выражениях</textarea>
+            </div>
+        </fieldset>
+          <button class="passage-form__send-form" type="submit">Отправить форму</button>
+          <p class="passage-form__link"><sup>*</sup><small> – Обязательные поля</small></p>
+        </form>  
+      </section>
+    </main>
+		<footer class="page-footer">
+      <div class="page-footer__logo-pink">
+        <img class="logo" src="source/img/logotype-blue-tablet.svg" alt="Очки-Пинк">
+      </div>
+      <div class="page-footer__social">
+        <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--twitter" href="https://twitter.com/htmlacademy">Мы в Твиттере</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="https://www.youtube.com/htmlacademy">Мы в Ютубе</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <b class="copyright__text">Разработано</b>
+          <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        </div>
+  </footer>
+  </body>
+</html>

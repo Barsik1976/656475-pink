@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="img/logotype-pink.svg" alt="Pink"></a>
+      <button class="page-header__button button">       
+      </button>
+			<nav class="main-nav">
+				<ul class="main-nav__list site-list">
+					<li class="site-list__item">
+            <a href="#index">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#photos">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#competition">Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#academy">html academy</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="photo-user">
+  		  <h1 class="photo-user__competition">Фотографии пользователей</h1>
+        <img class="photo-user__phone-img" src="source/img/back-mobile.jpg" alt="фон мобайл">
+      </div>
+    </header>
+    <main class="page-main">
+        <section class="passage-photo">
+          <h2 class="visually-hidden">Что выкладывают пользователи</h2>
+            <p class="passage-photo__call">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+          <div class="passage-photo__list-photos">
+            <div class="passage-photo__item-photos">
+              <a href="#"><img class="passage-photo__img" src="source/img/panorama-mobile.jpg" alt="Панорама"></a>
+              <blockquote class="passage-photo__item-diff">
+                <cite class="passage-photo__author-name">Анна</cite>
+                </blockquote>
+                <time>(5 минут назад)</time>
+                <p class="passage-photo__text">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+            </div>
+            <div class="passage-photo__item-photos">
+              <a href="#"><img class="list-photos" src="source/img/photo-1-mobile.jpg" alt="Автомобиль"></a>
+              <blockquote class="passage-photo__item-diff">
+                <cite class="passage-photo__author-name">Левон</cite>
+                </blockquote>
+                <time>(5 часов назад)</time>
+                <p class="passage-photo__text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+            <div class="passage-photo__item-photos">
+              <a href="#"><img class="list-photos" src="source/img/photo-2-mobile.jpg" alt="Барабаны"></a>
+              <blockquote class="passage-photo__item-diff">
+                <cite class="passage-photo__author-name">Антон</cite>
+              </blockquote>
+                <time>(12 часов назад)</time>
+                <p class="passage-photo__text">Соседи будут рады!</p>
+            </div>
+            <div class="passage-photo__item-photos">
+              <a href="#"><img class="list-photos" src="source/img/photo-3-mobile.jpg" alt="Барабаны"></a>
+              <blockquote class="passage-photo__item-diff">
+                <cite class="passage-photo__author-name">Борис</cite>
+                </blockquote>
+                <time>(20 часов назад)</time>
+                <p class="passage-photo__text">Здесь могла быть ваша цитата о высоком и вечном.</p>
+            </div>
+            <div class="passage-photo__item-photos">
+              <a href="#"><img class="list-photos" src="source/img/photo-4-mobile.jpg" alt="Кубань"></a>
+              <blockquote class="passage-photo__item-diff">
+                <cite class="passage-photo__author-name">Сергей</cite>
+                </blockquote>
+                <time>(25 часов назад)</time>
+                <p class="passage-photo__text">Самая кубанская в мире!</p>
+            </div>
+            <div class="passage-photo__item-photos">
+              <a href="#"><img class="list-photos" src="source/img/photo-5-mobile.jpg" alt="Ноги"></a>
+              <blockquote class="passage-photo__item-diff">
+                <cite class="passage-photo__author-name">Максим</cite>
+                </blockquote>
+                <time>(40 часов назад)</time>
+                <p class="passage-photo__text">Где снег-то?</p>
+            </div>
+            <div class="passage-photo__item-photos">
+              <a href="#"><img class="list-photos" src="source/img/photo-6-mobile.jpg" alt="Крыло самолета"></a>
+              <blockquote class="passage-photo__item-diff">
+                <cite class="passage-photo__author-name">Надежда</cite>
+                </blockquote>
+                <time>(45 часов назад)</time>
+                <p class="passage-photo__text">Всем GM и взаимные лайки!</p>
+            </div>
+          </div>
+          </section>
+            <p class="passage-photo__call">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
+          
+        
+      
+      
+
+      <section class="edit">
+        <h2 class="visually-hidden">Редактирование фотографий</h2>
+        <img class="photos-edit" src="source/img/photo-7-mobile.jpg" alt="Дорога">
+          <div class="edit__correct">
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                  </div>
+                <div class="toggle toggle-min"></div>
+                  <div class="toggle toggle-max"></div>
+                </div>
+                  <div class="price-controls">
+                    <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+                    <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+                  </div>
+              </div>
+              <div class="button-photo">
+                <button class="button-photo__zapostit">Запостить</button>
+                <button class="button-photo__cancel">Запостить</button>
+              </div>
+      </section>
+  </main>
+  <footer class="page-footer">
+      <div class="page-footer__logo-pink">
+        <img class="logo" src="source/img/logotype-blue-tablet.svg" alt="Очки-Пинк">
+      </div>
+      <div class="page-footer__social">
+        <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--twitter" href="https://twitter.com/htmlacademy">Мы в Твиттере</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="https://www.youtube.com/htmlacademy">Мы в Ютубе</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <b class="copyright__text">Разработано:</b>
+          <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        </div>
+  </footer>
+</body>
+</html>
