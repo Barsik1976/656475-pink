@@ -22,7 +22,7 @@
             <a href="photo.html">Фотографии</a>
           </li>
           <li class="site-list__item">
-            <a href="competition.html">Конкурс</a>
+            <a href="form.html">Конкурс</a>
           </li>
           <li class="site-list__item">
             <a href="https://htmlacademy.ru">html academy</a>
@@ -40,112 +40,85 @@
             <p class="passage-form__call">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните </p>
           <form action="https://htmlacademy.ru" method="post">
           <fieldset class="passage-form__group-form">
-            <div class="passage-form__insert">
-              <label>Фамилия:<br><input type="text" name="surname" value="Укажите фамилию *"></label><br>
+                <label>Фамилия:<br><input type="text" name="surname" value="Укажите фамилию *"></label><br>
                 <label>Имя:<br><input type="text" name="name" value="Введите ваше имя *"></label><br>
                 <label>Отчество:<br><input type="text" name="patronymic" value="Ну и отчество тоже"></label>
-            </div>
           </fieldset>
           <fieldset class="passage-form__group-progress">
-            <div class="passage-form__progress">
-            <legend class="passage-form__subtitle-progress">Ваши безбашенные достижения в путешествии</legend>
+                <legend class="passage-form__subtitle-progress">Ваши безбашенные достижения в путешествии</legend>
               <ul>
                 <li class="filter-option">
-                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
-                  <label for="filter-slider" checked>Сделал селфи с акулой
-                  </label>
+                  <input type="checkbox" name="progress" value="progress" id="filter-progress" checked>
+                  <label for="filter-progress">Сделал селфи с акулой</label>
                   </li>
                   <li class="filter-option">
-                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
-                  <label for="filter-slider" checked>Обгорел на пляже
-                  </label>
+                    <input type="checkbox" name="progress" value="progress" id="filter-progress" checked>
+                  <label for="filter-progress">Обгорел на пляже</label>
                 </li>
                 <li class="filter-option">
-                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
-                  <label for="filter-slider">Видел Чака Норриса
-                  </label>
+                  <input type="checkbox" name="progress" value="progress" id="filter-progress">
+                  <label for="filter-progress">Видел Чака Норриса</label>
                 </li>
                 <li class="filter-option">
-                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
-                  <label for="filter-slider">Накупил сувениров
-                  </label>
+                  <input type="checkbox" name="progress" value="progress" id="filter-progress">
+                  <label for="filter-progress">Накупил сувениров</label>
                 </li>
                 <li class="filter-option">
-                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
-                  <label for="filter-slider" checked>Удержал башню
-                  </label>
+                  <input type="checkbox" name="progress" value="progress" id="filter-progress" checked>
+                  <label for="filter-progress">Удержал башню</label>
                 </li>
                 <li class="filter-option">
-                  <input type="checkbox" name="slaider" value="slider" id="filter-slider">
-                  <label for="filter-slider">Разгромил отель
-                  </label>
+                  <input type="checkbox" name="progress" value="progress" id="filter-progress">
+                  <label for="filter-progress">Разгромил отель</label>
                 </li>
               </ul>
-            </div>
            </fieldset>
            <fieldset class="passage-form__group-form">
-            <div class="passage-form__insert">
               <label>Номер телефона<br><input type="text" name="phone-number" value="Номер, пожалуйста"></label><br>
-                <label>адрес почты<br><input type="text" name="mail" value="Введите почту *">
-                </label><br>
-            </div>
+              <label>адрес почты<br><input type="text" name="mail" value="Введите почту *">
+              </label><br>
            </fieldset>  
            <fieldset class="passage-form__group-systems">
-            <div class="passage-form__systems-travel">
-            <legend class="passage-form__subtitle-trav">С каким приложением путешествовали?</legend>
+              <legend class="passage-form__travel">С каким приложением путешествовали?</legend>
               <ul>
-                <li class="filter-option">
-                  <input type="radio" name="slaider" value="ios" id="filter-slider">
-                  <label for="filter-slider" checked>Pink для iOS
+                <li class="filter-application">
+                  <input type="radio" name="travel" value="ios" id="filter-applic">
+                  <label for="filter-applic" checked>Pink для iOS
                   </label>
                   </li>
-                  <li class="filter-option">
-                  <input type="radio" name="slaider" value="android" id="filter-slider">
-                  <label for="filter-slider">Pink на android
+                  <li class="filter-application">
+                  <input type="radio" name="travel" value="android" id="filter-applic">
+                  <label for="filter-applic">Pink на android
                   </label>
                   </li>
-                  <li class="filter-option">
-                  <input type="radio" name="slaider" value="windows" id="filter-slider">
-                  <label for="filter-slider">Windows Phone
+                  <li class="filter-application">
+                  <input type="radio" name="travel" value="windows" id="filter-applic">
+                  <label for="filter-applic">Windows Phone
                   </label>
                   </li>
                 </ul>
-              </div>
             </fieldset>
             <fieldset class="passage-form__group-form">
-              <div class="passage-form__emotions">
-              <legend class="passage-form__subtitle-emotions">С каким приложением путешествовали?</legend>
-              <!-- 
-              <label>Опишите свои эмоции<br><input type="text" name="descript-emotions" value="Можно прям в красках, не стесняясь в выражениях"></label>
-              -->
+              <legend class="passage-form__emotions">С каким приложением путешествовали?</legend>
               <textarea name="descript-emotions" id="descript-field" rows="10">Можно прям в красках, не стесняясь в выражениях</textarea>
-            </div>
-        </fieldset>
+          </fieldset>
           <button class="passage-form__send-form" type="submit">Отправить форму</button>
           <p class="passage-form__link"><sup>*</sup><small> – Обязательные поля</small></p>
         </form>  
       </section>
     </main>
 		<footer class="page-footer">
-      <div class="page-footer__logo-pink">
+      <div class="page-footer__item logo-pink">
         <img class="logo" src="source/img/logotype-blue-tablet.svg" alt="Очки-Пинк">
       </div>
-      <div class="page-footer__social">
-        <ul class="social__list">
-            <li class="social__item">
-              <a class="social__link social__link--twitter" href="https://twitter.com/htmlacademy">Мы в Твиттере</a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
-            </li>
-            <li class="social__item">
-              <a class="social__link social__link--youtube" href="https://www.youtube.com/htmlacademy">Мы в Ютубе</a>
-            </li>
-          </ul>
+        <div class="page-footer__item social">
+          <a class="social__link social__link--twitter" href="https://twitter.com/htmlacademy">Мы в Твиттере</a>
+          <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+          <a class="social__link social__link--youtube" href="https://www.youtube.com/htmlacademy">Мы в Ютубе</a>
         </div>
-        <div class="page-footer__copyright copyright">
+        <div class="page-footer__item copyright">
           <b class="copyright__text">Разработано</b>
-          <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          <a class="copyright__button-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
         </div>
   </footer>
   </body>
