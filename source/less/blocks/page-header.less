@@ -1,6 +1,6 @@
 
 
-@header-path: "logo-pink-white-mobile.svg";
+@header-path: url("../source/img/logo-pink-white-mobile.svg");
 
 .page-header {
     display: block;
@@ -20,9 +20,9 @@
 }
 
 .page-header__logo-image {
-    display: block;
+
     position: relative;
-    background: url(@header-path);
+    background: @header-path;
 }
 
 .page-header__button {
